@@ -1,30 +1,22 @@
 
 
-# Walmart Retail Dashboard
+# Dynamic Retail Dashboard
 
 ## Objective
-The objective of this project is to create a dynamic retail dashboard using Walmart's sales data, aimed at providing comprehensive insights into key performance indicators (KPIs), sales trends, customer behaviors, and profitability. The dashboard is designed for quick and interactive exploration of retail data to aid in decision-making.
 
-## Overview
-This dashboard was built using data from Walmart’s retail operations, encompassing various categories such as **orders, customers, products, and returns**. The data has been processed and visualized to provide insights across several dimensions, including sales, profits, discounting strategies, and customer returns.
+This repository contains a dynamic retail dashboard created using Microsoft Excel. The dashboard is designed to provide insightful analyses of retail data, specifically using a dataset from Walmart. The primary objective is to deliver a comprehensive tool that allows users to interactively analyze key performance indicators (KPIs) and gain insights into various aspects of retail operations.
 
-Key metrics tracked in the dashboard include:
-- **Total Sales**
-- **Total Profit**
-- **Quantity Sold**
-- **Average Discount**
-- **Total Orders**
-- **Profitability**
+## Dataset
 
-Additionally, the dashboard answers several key business questions:
-1. **KPIs**: Total sales, profit, quantity, number of orders, and profit margin.
-2. **Sales and Profit Analysis**: Comparative analysis of sales and profit across time periods and categories.
-3. **Category-wise Profit**: Breakdown of profits by category and subcategory.
-4. **Sales by Country**: Analysis of sales distribution by country and region.
-5. **Top 5 and Bottom 5 Subcategories**: Identification of best- and worst-performing product subcategories.
-6. **Yearly Sales Trend**: Visual representation of sales trends over the years.
-7. **Return Analysis**: Insights into the percentage of orders that were returned.
-8. **Top and Bottom Customers**: Identification of high-value and low-value customers.
+The dashboard is built using the following datasets:
+
+1. **Orders**: Contains detailed information about retail orders, including Order ID, Order Date, Ship Date, Ship Mode, Customer ID, Customer Name, Segment, City, State, Country, Postal Code, Market, Region, Product ID, Category, Sub-Category, Product Name, Sales, Quantity, Discount, Profit, Shipping Cost, and Order Priority.
+
+2. **People**: Lists information about individuals and their associated regions.
+
+3. **Returns**: Includes information about returned orders and their respective markets.
+
+The datasets are provided in the repository for reference and can be found in the `/datasets` folder.
 
 ## Sample Dataset
 
@@ -60,13 +52,50 @@ Here is a snapshot of the dataset used in the dashboard:
 | Matt Collister   | West     |
 | Deborah Brumfield| Africa   |
 
+## KPIs and Analysis
+
+The dashboard includes several KPIs and analyses, including:
+
+- **KPIs:**
+  - **Total Sales**: Sum of Sales (🔍)
+  - **Total Profit**: Sum of Profit (💰)
+  - **Total Quantity**: Sum of Quantity (📦)
+  - **Avg Discount**: Average of Discount (💹)
+  - **Total Orders**: Count of Order ID (🛒)
+  - **Profitability**: Sum of Profitability (📈)
+
+- **Analyses:**
+  - Total Sales, Total Profit, Quantity, Number of Orders, and Profit Margin
+  - Sales and Profit Analysis
+  - Category Wise Profit
+  - Category Wise Sales Share %
+  - Sales by Country
+  - Top 5 Subcategories
+  - Bottom 5 Subcategories
+  - Yearly Sales Trend
+  - Return Analysis
+  - Top Customers
+  - Bottom Customers
+
 ## Conclusion
-The dashboard provides a comprehensive view of Walmart’s retail performance across multiple categories and regions. By analyzing KPIs such as sales, profit, and return rates, the dashboard helps stakeholders understand trends in profitability, customer behavior, and product performance. The use of interactive slicers allows users to filter data by category, region, and other dimensions, making it a valuable tool for decision-making in retail management.
+
+The dynamic retail dashboard provides a comprehensive view of retail performance, enabling users to easily interact with and analyze data. The use of Excel for this dashboard makes it accessible to a wide range of users, including those without specialized data analysis software. By using slicers and pivot tables, users can filter and explore various aspects of the dataset to gain valuable insights into sales performance, profitability, and customer behavior.
 
 ## Significance
-This project is significant for several reasons:
-- **Business Insights**: The dashboard provides actionable insights that can drive strategic business decisions, such as inventory management, marketing strategies, and pricing adjustments.
-- **Customer Behavior Analysis**: By tracking returns and customer activity, the dashboard helps in understanding customer satisfaction and potential areas for improvement.
-- **Profitability Tracking**: It allows stakeholders to identify the most and least profitable categories, products, and customer segments, providing a basis for refining product offerings and sales strategies.
-- **Interactive Exploration**: The inclusion of slicers and filters enhances the usability of the dashboard, enabling quick analysis of specific data points.
+
+This dashboard is a valuable tool for retail analysts, managers, and decision-makers who need to monitor and evaluate business performance. It provides a user-friendly interface for exploring key metrics and trends, helping stakeholders make informed decisions based on real-time data. The ability to analyze sales, profit, and customer data in an interactive format allows for better strategic planning and operational improvements.
+
+Feel free to explore the dashboard, analyze the data, and adapt it to your specific needs. Contributions and improvements are welcome!
+
+## How to Use
+
+1. **Download the Dataset**: Access the datasets provided in the `/datasets` folder.
+2. **Open the Dashboard**: Open the Excel file included in the repository.
+3. **Interact with the Dashboard**: Use the slicers to filter data and explore different KPIs and analyses.
+4. **Analyze the Results**: Review the generated charts and tables to gain insights.
+
+###Screenshot
+![Screenshot 2024-09-17 204914](https://github.com/user-attachments/assets/0b8eab8f-ba9b-486b-a899-459397354851)
+
+
 
