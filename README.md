@@ -95,7 +95,8 @@ Feel free to explore the dashboard, analyze the data, and adapt it to your speci
 4. **Analyze the Results**: Review the generated charts and tables to gain insights.
 
 ###Screenshot
-![Screenshot 2024-09-17 204914](https://github.com/user-attachments/assets/0b8eab8f-ba9b-486b-a899-459397354851)
+<img width="767" alt="final" src="https://github.com/user-attachments/assets/87010990-4725-44bc-85b9-85b1ddab82e8">
+
 
 
 
